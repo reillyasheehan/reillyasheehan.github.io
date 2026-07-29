@@ -41,28 +41,6 @@ function PaintingCard({ painting }) {
             loading="lazy"
           />
         </button>
-
-        <figcaption className="painting-details">
-          <div className="painting-title-row">
-            <h3 className="painting-title">{painting.title}</h3>
-
-            {painting.year && (
-              <span className="painting-year">{painting.year}</span>
-            )}
-          </div>
-
-          {details && <p className="painting-meta">{details}</p>}
-
-          {painting.location && (
-            <p className="painting-location">{painting.location}</p>
-          )}
-
-          {(painting.status || painting.price) && (
-            <p className="painting-status">
-              {[painting.status, painting.price].filter(Boolean).join(" · ")}
-            </p>
-          )}
-        </figcaption>
       </figure>
 
       {isOpen && (

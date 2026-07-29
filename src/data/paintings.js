@@ -1,6 +1,10 @@
 import lakefillImage from "../assets/paintings/The_Lakefill.jpg";
 import windowImage from "../assets/paintings/Neighbors.jpg";
 import boatsImage from "../assets/paintings/Watching_the_Boats.jpg";
+import rocksImage from "../assets/paintings/Rocks.jpeg";
+import lilyImage from "../assets/paintings/Lilys.jpeg";
+import trapperImage from "../assets/paintings/Trapper_Lake.jpg";
+import moltonImage from "../assets/paintings/Molton_Barn.jpg";
 import schoolImage from "../assets/paintings/School.jpeg";
 import homeImage from "../assets/paintings/Home.JPG";
 
@@ -37,6 +41,41 @@ export const paintings = [
     image: boatsImage,
     alt: "Gouache painting on pond with lake in background",
     status: "Available",
+  },
+  {
+    id: "rocks",
+    year: 2025,
+    medium: "Gouache on paper",
+    location: "Evanston, Illinois",
+    image: rocksImage,
+    alt: "Gouache painting of rocks by Lake Michigan",
+  },
+  {
+    id: "lilys",
+    title: "Karaoke",
+    year: 2024,
+    medium: "Gouache on paper",
+    location: "Chicago, Illinois",
+    image: lilyImage,
+    alt: "Gouache painting of green themed karaoke bar",
+  },
+  {
+    id: "trapper",
+    title: "Trapper Lake",
+    year: 2024,
+    medium: "Gouache on paper",
+    location: "Grand Tetons, Wyoming",
+    image: trapperImage,
+    alt: "Gouache painting of mountain lake",
+  },
+  {
+    id: "molton",
+    title: "T.A. Molton Barn",
+    year: 2024,
+    medium: "Gouache on paper",
+    location: "Grand Tetons, Wyoming",
+    image: moltonImage,
+    alt: "Gouache painting of T.A. Molton Barn",
   },
   {
     id: "home",
